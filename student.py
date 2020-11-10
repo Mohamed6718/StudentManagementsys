@@ -10,3 +10,21 @@ def manageStudent(): #Function For The Student Management System
 	y = "=" * 28
 	global bye #Making Bye As Super Global Variable
 	bye = "\n {}\n# {} #\n# ===> Brought To You By <===  #\n# ===> code-projects.org <===  #\n# {} #\n {}".format(x, y, y, x) # Will Print GoodBye
+
+Message
+
+	#Printing Welcome Message And options For This Program
+	print("""
+
+  ------------------------------------------------------
+ |======================================================|
+ |======== Welcome To Student Management System	========|
+ |======================================================|
+  ------------------------------------------------------
+
+Enter 1 : To View Student's List
+Enter 2 : To Add New Student
+Enter 3 : To Search Student
+Enter 4 : To Remove Student
+
+		""")
